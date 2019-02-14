@@ -80,7 +80,7 @@ p {
   font-weight: bold;
 }
 
-.skill-row {
+.interest-row {
   width: 50%;
   margin: 50px auto;
   margin-top: 25px;
@@ -121,7 +121,7 @@ hr {
   margin-bottom: 50px;
 }
 
-.skills {
+.interests {
   margin-top: 50px;
 }
 
@@ -170,5 +170,12 @@ footer {
   width: 25%;
   float: left;
   margin-right: 20px;
+  border-radius: 100%;
+}
+
+#aircraft-img {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
   border-radius: 100%;
 }
