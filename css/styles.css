@@ -25,7 +25,11 @@ body {
 
 .bottom-cloud {
   position: absolute;
-  left: 300px
+  left: 200px
+}
+
+.cityscape {
+  width: 100%;
 }
 
 .description {
