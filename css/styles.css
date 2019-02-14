@@ -1,7 +1,11 @@
+.cityscape {
+  width: 100%;
+}
+
 h1 {
   font-size: 6rem;
-  padding-top: 120px;
-  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 0;
   font-family: 'Parisienne', cursive;
   color: #3c415e;
 }
@@ -28,10 +32,6 @@ body {
   left: 200px
 }
 
-.cityscape {
-  width: 100%;
-}
-
 .description {
   font-size: 1.5rem;
   font-family: 'Lato', sans-serif;
@@ -51,7 +51,6 @@ body {
   text-align: center;
   margin: auto;
   width: 35%;
-  margin-bottom: 30px;
 }
 
 h2 {
@@ -102,6 +101,13 @@ p {
   border-radius: 100%;
 }
 
+#aircraft-img {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+  border-radius: 100%;
+}
+
 .myinfo {
   margin: auto;
   width: 35%;
@@ -125,11 +131,10 @@ hr {
   margin-top: 50px;
 }
 
-footer {
+.bottom-container {
   background-color: #dbe2ef;
   padding-bottom: 25px;
   padding-top: 25px;
-  margin-top: 35px;
 }
 
 .footer-link {
@@ -170,12 +175,5 @@ footer {
   width: 25%;
   float: left;
   margin-right: 20px;
-  border-radius: 100%;
-}
-
-#aircraft-img {
-  width: 25%;
-  float: right;
-  margin-left: 20px;
   border-radius: 100%;
 }
